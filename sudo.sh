@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install sudo and add one user in the sudo group
-# Launch this script in root with this command: ./sudo.sh username
+# Launch this script in root with: ./sudo.sh username
 
 USER=$1
 
