@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Virtualbox "Guest Additions" installation for Debian
-# Launch this script with this command: sudo ./vb_guests_additions.sh 6.0.14 /media/cdrom
+# Launch this script with: sudo ./vb_guests_additions.sh 6.0.14 /media/cdrom
 
 VERSION_VIRTUALBOX=$1
 MOUNT_PATH=$2
