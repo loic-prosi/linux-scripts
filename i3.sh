@@ -12,12 +12,11 @@ rm .config/i3/config
 i3-config-wizard
 
 # Make i3 start each time the user log in
-cat >> .profile <<EOL
-#Startx Automatically
-if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
- . startx
- logout
-fi
-EOL
+echo "" >> .profile
+echo "#Startx Automatically" >> .profile
+echo "if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then" >> .profile
+echo " . startx" >> .profile
+echo " logout" >> .profile
+echo "fi" >> .profile
 
 reboot
