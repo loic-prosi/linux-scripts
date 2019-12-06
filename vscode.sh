@@ -10,6 +10,12 @@ apt-get install code
 
 # Install extensions
 
-code --install-extension --force Compulim.vscode-clock file-icons.file-icons whtouche.vscode-js-console-utils dbaeumer.vscode-eslint esbenp.prettier-vscode fabiospampinato.vscode-monokai-night
-humao.rest-client msjsdiag.debugger-for-chrome ms-vsliveshare.vsliveshare-pack
-
+code --install-extension Compulim.vscode-clock
+code --install-extension file-icons.file-icons
+code --install-extension fabiospampinato.vscode-monokai-night
+code --install-extension whtouche.vscode-js-console-utils
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension humao.rest-client
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension ms-vsliveshare.vsliveshare-pack
