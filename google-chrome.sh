@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Google Chrome repository to sources.list then install it
+# Add Google Chrome repository to sources.list then install it
 
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo apt update
