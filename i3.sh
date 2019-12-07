@@ -3,9 +3,6 @@
 # Install i3
 apt install xorg i3
 
-# Start i3
-startx
-
 # Change the default keyboard layout in french
 setxkbmap fr
 rm .config/i3/config
