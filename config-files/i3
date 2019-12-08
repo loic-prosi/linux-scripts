@@ -169,3 +169,10 @@ bar {
         status_command i3status
 }
 
+# Exec on startup
+exec_always feh --bg-scale $HOME/Images/pied-piper.png
+exec compton
+exec_always i3-sensible-terminal
+exec_always ranger
+exec_always google-chrome
+exec_always vscode
