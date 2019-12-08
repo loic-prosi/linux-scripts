@@ -2,4 +2,4 @@
 
 # Install useful packages
 
-sudo apt install make curl gpg dos2unix ranger terminator feh
+sudo apt install build-essential curl gpg dos2unix ranger terminator feh
