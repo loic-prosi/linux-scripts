@@ -1,7 +1,24 @@
 [global_config]
-focus = sloppy
-
+  focus = sloppy
 [profiles]
-[[default]]
-scrollbar_position = disabled
-show_titlebar = false
+  [[default]]
+    show_titlebar = False
+    scrollbar_position = hidden
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+    [[[terminal1]]]
+      type = Terminal
+      parent = window0
+  [[dev]]
+    [[[window0]]]
+      type = Window
+    [[[terminal1]]]
+      command = cd $HOME/linux-scripts; bash
+      type = Terminal
+      parent = window0
+    [[[terminal2]]]
+      command = cd $HOME/linux-scripts/.config; bash
+      type = Terminal
+      parent = window0
