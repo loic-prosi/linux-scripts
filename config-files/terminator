@@ -14,59 +14,40 @@
       type = Terminal
       parent = window0
   [[dev]]
-    [[[child0]]]
+    [[[window]]]
       type = Window
-      order = 0
-      parent = ""
-    [[[child1]]]
+      order = 0 
+    [[[root]]]
       type = HPaned
       order = 0
-      parent = child0
-    [[[child2]]]
+      parent = window
+    [[[left]]]
       type = VPaned
       order = 0
-      parent = child1
-    [[[child5]]]
-      type = HPaned
-      order = 1
-      parent = child1
-    [[[child6]]]
-      type = VPaned
-      order = 0
-      parent = child5
-    [[[child9]]]
+      parent = root
+    [[[right]]]
       type = VPaned
       order = 1
-      parent = child5
+      parent = root
     [[[terminal1]]]
-      command = terminal1; bash
       type = Terminal
-      order = 1
-      parent = child9
+      order = 0
+      parent = left
+      command = terminal1order0; bash
     [[[terminal2]]]
-      command = terminal2; bash
       type = Terminal
-      order = 0
-      parent = child9
+      order = 1
+      parent = left
+      command = terminal2order1; bash
     [[[terminal3]]]
-      command = terminal3; bash
       type = Terminal
       order = 0
-      parent = child2
+      parent = right
+      command = terminal3order0; bash
     [[[terminal4]]]
-      command = terminal4; bash
       type = Terminal
       order = 1
-      parent = child2
-    [[[terminal5]]]
-      command = terminal5; bash
-      type = Terminal
-      order = 0
-      parent = child6
-    [[[terminal6]]]
-      command = terminal6; bash
-      type = Terminal
-      order = 1
-      parent = child6
+      parent = right
+      command = terminal4order1; bash
 [plugins]
 
