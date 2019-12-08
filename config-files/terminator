@@ -10,11 +10,11 @@
     background_type = transparent
 [layouts]
   [[default]]
-    [[[window0]]]
+    [[[window]]]
       type = Window
     [[[terminal1]]]
       type = Terminal
-      parent = window0
+      parent = window
   [[dev]]
     [[[window]]]
       type = Window
