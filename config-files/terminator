@@ -38,21 +38,21 @@
       type = Terminal
       order = 0
       parent = left
-      command = terminal1order0; bash
+      command = terminal1; bash
     [[[terminal2]]]
       type = Terminal
       order = 1
       parent = left
-      command = terminal2order1; bash
+      command = terminal2; bash
     [[[terminal3]]]
       type = Terminal
       order = 0
       parent = right
-      command = terminal3order0; bash
+      command = terminal3; bash
     [[[terminal4]]]
       type = Terminal
       order = 1
       parent = right
-      command = terminal4order1; bash
+      command = terminal4; bash
 [plugins]
 
