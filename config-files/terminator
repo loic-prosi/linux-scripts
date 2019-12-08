@@ -8,6 +8,7 @@
     scrollbar_position = hidden
     background_darkness = 0.85
     background_type = transparent
+    scrollback_infinite = true
 [layouts]
   [[default]]
     [[[window0]]]
