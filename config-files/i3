@@ -180,3 +180,4 @@ exec_always terminator
 exec_always google-chrome
 exec_always code
 exec_always ranger
+terminator --working-directory=$HOME/linux-scripts -e ranger
