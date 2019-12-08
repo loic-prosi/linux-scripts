@@ -1,4 +1,4 @@
-# ~$/.config/terminator/config
+# $HOME/.config/terminator/config
 
 [global_config]
   focus = sloppy
