@@ -45,7 +45,7 @@ bindsym $mod+d exec dmenu_run
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-bindsym $mod+l exec i3lock-fancy -n
+bindsym $mod+l exec i3lock-fancy
 bindsym $mod+m focus right
 
 # alternatively, you can use the cursor keys:
