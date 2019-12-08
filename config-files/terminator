@@ -1,0 +1,7 @@
+[global_config]
+focus = sloppy
+
+[profiles]
+[[default]]
+scrollbar_position = disabled
+show_titlebar = false
