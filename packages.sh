@@ -2,4 +2,4 @@
 
 # Install useful packages
 
-sudo apt install curl gpg dos2unix
+sudo apt install curl gpg dos2unix feh
