@@ -6,6 +6,8 @@
   [[default]]
     show_titlebar = False
     scrollbar_position = hidden
+    background_darkness = 0.85
+    background_type = transparent
 [layouts]
   [[default]]
     [[[window0]]]
