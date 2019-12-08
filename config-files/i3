@@ -174,7 +174,7 @@ assign [class="Google-chrome"] 2
 assign [class="Code"] 3
 
 # Exec on startup
-exec_always feh --bg-scale $HOME/image.png
+exec_always feh --bg-scale wallpaper.png
 exec compton
 exec_always terminator -l dev
 exec_always google-chrome
