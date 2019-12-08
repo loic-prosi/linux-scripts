@@ -1,3 +1,5 @@
+# ~$/.config/terminator/config
+
 [global_config]
   focus = sloppy
   suppress_multiple_term_dialog = True
