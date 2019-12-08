@@ -177,6 +177,6 @@ assign [class="Code"] 3
 exec_always feh --bg-scale $HOME/Images/pied-piper.png
 exec compton
 exec_always terminator
-exec_always ranger
 exec_always google-chrome
-exec_always vscode
+exec_always code
+exec_always ranger
