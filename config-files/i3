@@ -169,6 +169,10 @@ bar {
         status_command i3status
 }
 
+# Assign applications to workspaces
+assign [class="Google-chrome"] 2
+assign [class="Code"] 3
+
 # Exec on startup
 exec_always feh --bg-scale $HOME/Images/pied-piper.png
 exec compton
