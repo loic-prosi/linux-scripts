@@ -20,3 +20,10 @@ code --install-extension ms-vsliveshare.vsliveshare-pack
 
 # Launch Visual Studio Code
 code
+
+# Add those lines to ~/.config/Code/User/settings.json :
+
+# "editor.formatOnSave": true,
+# "[javascript]": {
+#     "editor.defaultFormatter": "esbenp.prettier-vscode"
+# },
