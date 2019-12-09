@@ -21,7 +21,7 @@ code --install-extension ms-vsliveshare.vsliveshare-pack
 # Launch Visual Studio Code
 code
 
-# Add those lines to ~/.config/Code/User/settings.json :
+# To enable prettier and format on save, add those lines to ~/.config/Code/User/settings.json :
 
 # "editor.formatOnSave": true,
 # "[javascript]": {
