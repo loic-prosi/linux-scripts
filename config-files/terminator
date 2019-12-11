@@ -6,9 +6,11 @@
   [[default]]
     show_titlebar = False
     scrollbar_position = hidden
-    background_darkness = 0.85
+    scrollback_infinite = True
+    background_darkness = 0.75
     background_type = transparent
-    scrollback_infinite = true
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"    
 [layouts]
   [[default]]
     [[[window0]]]
