@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pamac build google-chrome
+pamac build google-chrome
