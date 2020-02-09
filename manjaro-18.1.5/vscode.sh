@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pamac build visual-studio-code-bin
+pamac build visual-studio-code-bin
 
 # Install extensions
 code --install-extension Compulim.vscode-clock
