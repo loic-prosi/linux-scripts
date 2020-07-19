@@ -17,6 +17,8 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension humao.rest-client
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension ms-vsliveshare.vsliveshare-pack
+code --install-extension jock.svg
+code --install-extension cssho.vscode-svgviewer
 
 # Launch Visual Studio Code
 code
