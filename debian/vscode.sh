@@ -22,10 +22,3 @@ code --install-extension cssho.vscode-svgviewer
 
 # Launch Visual Studio Code
 code
-
-# To enable prettier and format on save, add those lines to ~/.config/Code/User/settings.json :
-
-# "editor.formatOnSave": true,
-# "[javascript]": {
-#     "editor.defaultFormatter": "esbenp.prettier-vscode"
-# },
