@@ -19,6 +19,7 @@ code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension ms-vsliveshare.vsliveshare-pack
 code --install-extension jock.svg
 code --install-extension cssho.vscode-svgviewer
+code --install-extension eamodio.gitlens
 
 # Launch Visual Studio Code
 code
